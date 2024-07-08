@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif, Arial;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(5px);
+ 
+}

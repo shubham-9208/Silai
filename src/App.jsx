@@ -13,10 +13,10 @@ function App() {
   const [showOverlay, setShowOverlay] = useState(false);
   const [adminButton, setadminButton] = useState(false)
   const [IwantPopUp, setIwantPopUp] = useState(false)
-  const [adminPage, setadminPage] = useState(true)
+  const [adminPage, setadminPage] = useState(false)
   const [adminPageCards, setadminPageCards] = useState(true)
   const [adminPageRequest, setadminPageRequest] = useState(false)
-  const [MainPage, setMainPage] = useState(false)
+  const [MainPage, setMainPage] = useState(true)
   const [firebaseProduct, setfirebaseProduct] = useState([])
   const [filterDataSearch, setfilterDataSearch] = useState([])
 
